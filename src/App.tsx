@@ -11,13 +11,13 @@ import Styled from 'styled-components/native';
 
 import {TodoListContextProvider} from '~/Context/TodoListContext';
 
-// import Todo from './Screens/Todo';
+import Todo from './Screens/Todo';
 
 const App = () => {
   return (
     <TodoListContextProvider>
       <Container>
-        <Container />;
+        <Todo />
       </Container>
     </TodoListContextProvider>
   );
